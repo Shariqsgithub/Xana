@@ -1163,8 +1163,8 @@ tr td {
 
 .about_us_container {
      width: 100%;
-     background-color: #0c0f38;
-     color: #fff;
+     /*background-color: #0c0f38;
+     color: #fff;*/
      padding-top: 50px;
      padding-left: 35px;
      padding-right: 35px;
@@ -1172,32 +1172,44 @@ tr td {
 }
 
 .about_us_container h1{
-     text-align: center;
-     font-size: 32px;
-     font-weight: 700;
+     text-align: left;
+     font-size: 3.8em;
+     padding-left: 125px;
+     padding-right: 375px;
+     font-weight: 600;
 }
 
 .about_us_container p{
-     text-align: center;
-     font-size: 24px;
-     padding-left: 275px;
+     text-align: left;
+     font-size: 1.5em;
+     padding-left: 125px;
      padding-right: 275px;
      padding-bottom: 50px;
-     padding-top: 50px;
+     padding-top: 10px;
+     line-height: 40px;
+     font-weight: 400;
 }
 
 .story{
      display: flex;
      flex-direction: row;
-     margin-top: 100px;
-     padding-top: 50px;
-     padding-bottom: 50px;
-}
-
-.story1{
-     width: 40vw;
-     text-align: center;
+     margin-top: 10px;
      padding-top: 40px;
+     padding-bottom: 10px;
+     padding-left: 75px;
+     background-color: #0c0f38;
+     color: white;
+     border-radius: 10px;
+}
+.story h3{
+     text-align: center;
+     font-size: 1.5em;
+     font-weight: 200;
+}
+.story1{
+     width: 30vw;
+     text-align: left;
+     padding-top: 90px;
 }
 
 .story1 img{
@@ -1209,10 +1221,21 @@ tr td {
      width: 60vw;
 }
 
-.story2 p{
-     font-size: 16px;
+.story2 h1{
+     text-align: left;
+     font-size: 2.8em;
      padding-left: 55px;
-     padding-right: 55px
+     padding-right: 375px;
+     font-weight: 400;
+}
+
+
+.story2 p{
+     font-size: 1em;
+     padding-left: 55px;
+     padding-right: 15px;
+     line-height: 25px;
+     font-weight: 200;
 }
 
 .teamparent{
@@ -1220,6 +1243,15 @@ tr td {
      color: black;
      padding-top: 40px;
      
+}
+
+.teamparent h1{
+     text-align: left;
+     margin-top: 0;
+     margin-bottom: 10px;
+     font-size: 2.5em;
+     font-weight: 600;
+     line-height: 1;
 }
 
 .team{
@@ -1236,11 +1268,17 @@ tr td {
 
 .team img{
      height: 45vh;
-     width: 20vw;
+     /*width: 20vw;*/
      border-radius: 12px;
      
 }
 
+.team h3{
+     text-align: center;
+     font-size: 1.5em;
+     font-weight: 400;
+     margin-top: 10px;
+}
 
 #resourceSelector {
      border: none;

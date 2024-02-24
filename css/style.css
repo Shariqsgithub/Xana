@@ -479,25 +479,25 @@ button {
    
 .slide-track {
      display: inline-block;
-     animation: 35s slide infinite linear;
+     animation: 15s slide infinite linear;
    }
    
 .slide-track img {
      height: 50px;
-     margin: 0px 40px;
-     margin-left: 20px;
+     margin: 0px 47px;
+     /*margin-left: 20px;*/
 }
-
+/*
 .slide-track1 {
      display: inline-block;
-     animation: 35s slide infinite linear;
+     animation: 45s slide infinite linear;
    }
    
 .slide-track1 img {
      height: 50px;
      margin: 0px 40px;
-     margin-left: 20px;
-}
+     margin-left: 60px;
+}*/
 
 
 
